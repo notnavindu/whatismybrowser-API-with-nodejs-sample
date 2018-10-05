@@ -1,6 +1,3 @@
-env/
-config.py
 node_modules/
 .vscode/
-__pycache__/
 api_key.js
