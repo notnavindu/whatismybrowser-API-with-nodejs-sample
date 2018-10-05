@@ -1,0 +1,18 @@
+{
+  "name": "user-agent-parser-nodejs",
+  "version": "1.0.0",
+  "description": "A simple nodejs example for whatismybrowserapi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatismybrowser"
+  ],
+  "author": "Navindu Amarakoon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.88.0"
+  }
+}
