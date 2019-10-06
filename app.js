@@ -7,6 +7,7 @@ var keys = require('./api_key')
 var APIkey = keys['api_key'];
 
 
+console.log("Starting server...")
 
 
 app.get('/', function (req, res) {
@@ -30,7 +31,7 @@ app.get('/', function (req, res) {
                         <head>
                             <meta name="viewport" content="width=device-width, initial-scale=1">
                             <style>
-                                body{font-family:Arial; color:#eee; background:#303030;width:100%;}
+                                body{font-family:Arial; color:#eee; background:#111111;width:100%;}
                                 .container{width:100%; max-width:500px; margin:auto; text-align:center;}
                                 .output{width:100%; max-width:900px; margin:auto;}
                             </style>
@@ -57,3 +58,4 @@ app.get('/', function (req, res) {
 
 
 app.listen(3000);
+console.log("Listening at http://localhost:3000")
