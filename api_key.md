@@ -1,3 +1,3 @@
-Add your API Key to a file named 'api_key.js' in the root dir as follows:
+Create a file named `api_key.js` in the root directory and add the following line with your API key
 
-`module.exports = { "api_key": "<YOUR_APII_KEY>" };`
+`module.exports = { "api_key": "<YOUR_API_KEY>" };`
